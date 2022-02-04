@@ -1,0 +1,7 @@
+This little python script will measure your bandwidth. 
+You can visualize it with gnuplot. 
+
+You will need:
+Python
+Gnuplot
+pip speedtest-cli 
