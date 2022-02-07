@@ -1,13 +1,16 @@
+#Networkmonitor
+
 This little python script will measure your bandwidth. 
 You can visualize it with gnuplot. 
 
-You will need:
+##You will need:
 Python
 Gnuplot
 pip speedtest-cli 
 
-Little HowTo:
-*First Demo*
+##Little HowTo:
+
+######First Demo
 I created a bandwidthdata.csv with demo data. To visualize just run: 
 gnuplot liveplot.gnu
 
