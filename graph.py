@@ -9,12 +9,8 @@ data = pandas.read_csv("bandwidthdata.csv")
 times = data["time"]
 download = data["download"]
 upload = data["upload"]
-fig, ax = plt.subplots()
 
 plt.figure(figsize=(10, 10))
-fig.autofmt_xdate()
-ax.plot(data.time)
-ax.fmt_xdata = mdates.DateFormatter('%Y-%m-%d')
 plt.plot(data.time, data.download, label='download', color='r')
 plt.plot(data.time, data.upload, label='upload', color='b')
 plt.xlabel('time')
