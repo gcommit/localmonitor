@@ -5,6 +5,8 @@
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Demo](#demo)
+* [Example](#example)
+
 
 ## General info
 This little python script will measure your bandwidth. 
@@ -51,3 +53,6 @@ $ cd $HOME/networkmonitor
 $ git clone
 $ gnuplot liveplot.gnu
 ```
+
+## Example
+![networkgraph](https://user-images.githubusercontent.com/18714033/152774980-d4ecb1b8-b6f8-4233-a5c6-1baf5fb80570.jpg)
