@@ -55,4 +55,4 @@ $ gnuplot liveplot.gnu
 ```
 
 ## Example
-![networkgraph](https://user-images.githubusercontent.com/18714033/152774980-d4ecb1b8-b6f8-4233-a5c6-1baf5fb80570.jpg)
+![networkgraph](https://user-images.githubusercontent.com/18714033/152780777-458d5941-ce2b-4697-be14-fd59a4137370.jpg)
