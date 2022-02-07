@@ -7,7 +7,7 @@ Gnuplot
 pip speedtest-cli 
 
 Little HowTo:
-First Demo
+*First Demo*
 I created a bandwidthdata.csv with demo data. To visualize just run: 
 gnuplot liveplot.gnu
 
