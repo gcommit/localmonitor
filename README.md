@@ -16,7 +16,6 @@ You can visualize it with gnuplot or matplotlib.
 Project is created with:
 * Python
 * Gnuplot (http://www.gnuplot.info)
-* PIP speedtest-cli (https://pypi.org/project/speedtest-cli/)
 * Matplotlib https://matplotlib.org
 	
 ## Setup
@@ -25,10 +24,7 @@ Project is created with:
 $ mkdir -p $HOME/networkmonitor
 $ cd $HOME/networkmonitor
 $ git clone
-$ pip 3 install matplotlib
-$ pip 3 install pandas
-$ pip 3 install numpy
-$ pip 3 install speedtest-cli
+$ pip3 install -r requirements.txt
 $ python3 NETWORK/network_monitor.py
 $ gnuplot NETWORK/liveplot.gnu
 ```
@@ -37,10 +33,7 @@ $ gnuplot NETWORK/liveplot.gnu
 $ mkdir -p $HOME/networkmonitor
 $ cd $HOME/networkmonitor
 $ git clone
-$ pip 3 install matplotlib
-$ pip 3 install pandas
-$ pip 3 install numpy
-$ pip 3 install speedtest-cli
+$ pip3 install -r requirements.txt
 $ python3 NETWORK/network_monitor.py
 $ pathon3 NETWORK/graph-network.py
 ```
@@ -49,10 +42,7 @@ $ pathon3 NETWORK/graph-network.py
 $ mkdir -p $HOME/networkmonitor
 $ cd $HOME/networkmonitor
 $ git clone
-$ pip 3 install matplotlib
-$ pip 3 install pandas
-$ pip 3 install numpy
-$ pip 3 install psutil
+$ pip3 install -r requirements.txt
 $ python3 CPU/cpu_monitor.py
 $ gnuplot liveplot.gnu
 ```
@@ -61,10 +51,7 @@ $ gnuplot liveplot.gnu
 $ mkdir -p $HOME/networkmonitor
 $ cd $HOME/networkmonitor
 $ git clone
-$ pip 3 install matplotlib
-$ pip 3 install pandas
-$ pip 3 install numpy
-$ pip 3 install psutil
+$ pip3 install -r requirements.txt
 $ python3 CPU/cpu_monitor.py
 $ pathon3 CPU/graph-cpu.py
 ```
