@@ -20,7 +20,7 @@ Project is created with:
 * Matplotlib https://matplotlib.org
 	
 ## Setup
-######Gnuplot
+###### Gnuplot
 ```
 $ mkdir -p $HOME/networkmonitor
 $ cd $HOME/networkmonitor
@@ -32,7 +32,7 @@ $ pip 3 install speedtest-cli
 $ python3 monitor.py
 $ gnuplot liveplot.gnu
 ```
-######Matplotlib
+###### Matplotlib
 ```
 $ mkdir -p $HOME/networkmonitor
 $ cd $HOME/networkmonitor
