@@ -32,5 +32,5 @@ plt.legend()
 
 # SAVE OR SHOW THE GRAPH
 
-#plt.savefig('networkgraph.jpg', bbox_inches='tight')
-plt.show()
+plt.savefig('cpu_usage.jpg', bbox_inches='tight')
+#plt.show()
