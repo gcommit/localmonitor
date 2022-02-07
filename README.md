@@ -16,7 +16,7 @@ You can visualize it with gnuplot or matplotlib.
 Project is created with:
 * Python
 * Gnuplot (http://www.gnuplot.info)
-* Matplotlib https://matplotlib.org
+* Matplotlib (https://matplotlib.org)
 	
 ## Setup
 ###### Network Gnuplot 
