@@ -20,7 +20,7 @@ Project is created with:
 * Matplotlib https://matplotlib.org
 	
 ## Setup
-######Gnuplot
+###### Gnuplot
 ```
 $ mkdir -p $HOME/networkmonitor
 $ cd $HOME/networkmonitor
@@ -32,7 +32,7 @@ $ pip 3 install speedtest-cli
 $ python3 monitor.py
 $ gnuplot liveplot.gnu
 ```
-######Matplotlib
+###### Matplotlib
 ```
 $ mkdir -p $HOME/networkmonitor
 $ cd $HOME/networkmonitor
@@ -51,7 +51,7 @@ Just clone the repo and run the gnuplot. A prefilled CSV is already there
 $ mkdir -p $HOME/networkmonitor
 $ cd $HOME/networkmonitor
 $ git clone
-$ gnuplot liveplot.gnu
+$ gnuplot liveplot.gnu / $ pathon3 graph.py
 ```
 
 ## Example
