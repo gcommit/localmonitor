@@ -1,5 +1,4 @@
 import speedtest
-import datetime
 import csv
 
 s = speedtest.Speedtest()
