@@ -14,15 +14,33 @@ You can visualize it with gnuplot.
 Project is created with:
 * Python
 * Gnuplot (http://www.gnuplot.info)
-* pip speedtest-cli (https://pypi.org/project/speedtest-cli/)
+* PIP speedtest-cli (https://pypi.org/project/speedtest-cli/)
+* Matplotlib https://matplotlib.org
 	
 ## Setup
+######Gnuplot
 ```
 $ mkdir -p $HOME/networkmonitor
 $ cd $HOME/networkmonitor
 $ git clone
+$ pip 3 install matplotlib
+$ pip 3 install pandas
+$ pip 3 install numpy
+$ pip 3 install speedtest-cli
 $ python3 monitor.py
 $ gnuplot liveplot.gnu
+```
+######Matplotlib
+```
+$ mkdir -p $HOME/networkmonitor
+$ cd $HOME/networkmonitor
+$ git clone
+$ pip 3 install matplotlib
+$ pip 3 install pandas
+$ pip 3 install numpy
+$ pip 3 install speedtest-cli
+$ python3 monitor.py
+$ pathon3 graph.py
 ```
 
 ## Demo
