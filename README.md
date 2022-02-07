@@ -61,7 +61,8 @@ Just clone the repo and run the gnuplot. A prefilled CSV is already there
 $ mkdir -p $HOME/networkmonitor
 $ cd $HOME/networkmonitor
 $ git clone
-$ gnuplot liveplot.gnu / $ pathon3 graph.py
+$ gnuplot CPU/liveplot.gnu / python3 CPU/graph-cpu.py
+$ gnuplot NETWORK/liveplot.gnu / python3 NETWORK/graph-network.py
 ```
 
 ## Example
